@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "149D816B1DBD2AFB00A9EB1A"
-               BuildableName = "LibraryName-tvOS.framework"
-               BlueprintName = "LibraryName-tvOS"
+               BlueprintIdentifier = "149D815E1DBD2AE500A9EB1A"
+               BuildableName = "LibraryName.framework"
+               BlueprintName = "JSONPreprocessor-watchOS"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "149D816B1DBD2AFB00A9EB1A"
-            BuildableName = "LibraryName-tvOS.framework"
-            BlueprintName = "LibraryName-tvOS"
+            BlueprintIdentifier = "149D815E1DBD2AE500A9EB1A"
+            BuildableName = "LibraryName.framework"
+            BlueprintName = "JSONPreprocessor-watchOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,9 +70,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "149D816B1DBD2AFB00A9EB1A"
-            BuildableName = "LibraryName-tvOS.framework"
-            BlueprintName = "LibraryName-tvOS"
+            BlueprintIdentifier = "149D815E1DBD2AE500A9EB1A"
+            BuildableName = "LibraryName.framework"
+            BlueprintName = "JSONPreprocessor-watchOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
