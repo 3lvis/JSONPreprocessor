@@ -20,6 +20,8 @@
 		149D81851DBD2E8000A9EB1A /* JSONPreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* JSONPreprocessor.h */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
+		14FAC92B1DBD48B50073FBD2 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
+		14FAC92C1DBD48B60073FBD2 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -475,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14481A211DBD464800B1F46F /* JSONPreprocessor.swift in Sources */,
+				14FAC92B1DBD48B50073FBD2 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14481A221DBD464800B1F46F /* JSONPreprocessor.swift in Sources */,
+				14FAC92C1DBD48B60073FBD2 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
