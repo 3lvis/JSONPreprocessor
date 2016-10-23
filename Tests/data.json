@@ -3,12 +3,14 @@
     "title": "Foo &#038; Bar",
     "categories": [
       1
-    ]
+    ],
+    "post_author": "Foo Bar"
   },
   {
     "title": "Foo &#038; Bar",
     "categories": [
       2
-    ]
+    ],
+    "post_author": "Foo Bar"
   }
 ]

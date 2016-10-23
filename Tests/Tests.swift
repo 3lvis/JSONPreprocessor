@@ -7,16 +7,19 @@ class Tests: XCTestCase {
         let json = loadDummyData()
         
         let newJson = JSONPreprocessor(source: json)
-                        .use(plugin: HtmlEntities())
+                        .use(plugin: HtmlEntities(key: "title"))
+                        .use(plugin: HtmlEntities(key: "post_author", newKey: "author"))
                         .use(plugin: FlattenCategory())
                         .build()
         
         let first = newJson[0] as JSON
         XCTAssertEqual(first["title"] as? String, "Foo & Bar")
+        XCTAssertEqual(first["author"] as? String, "Foo Bar")
         XCTAssertEqual(first["category"] as? Int, 1)
         
         let second = newJson[1] as JSON
         XCTAssertEqual(second["title"] as? String, "Foo & Bar")
+        XCTAssertEqual(second["author"] as? String, "Foo Bar")
         XCTAssertEqual(second["category"] as? Int, 2)
     }
     
